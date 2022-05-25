@@ -38,7 +38,8 @@
     "build": "",
     "build-storybook": "build-storybook",
     "chromatic": "npx chromatic --project-token=f7c61765ad52",
-    "chromatic-build": "npx chromatic --project-token=f7c61765ad52 --force-rebuild"
+    "chromatic-build": "npx chromatic --project-token=f7c61765ad52 --force-rebuild",
+    "clean": "rimraf dist/"
   },
   "eslintConfig": {
     "extends": [
