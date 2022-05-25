@@ -1,6 +1,6 @@
 import "./mylabel.css";
 // Los comentarios encima de los props son los docs que se generan en storybook
-interface MyLabelProps {
+export interface MyLabelProps {
   /**
    * Texto que contendrá la etiqueta span
    */
