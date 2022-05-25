@@ -46,3 +46,10 @@ CustomFontColor.args = {
   size: "normal",
   fontColor: "#1fc291",
 };
+export const CustomBkColor = Template.bind({});
+CustomBkColor.args = {
+  label: "Secondary label",
+  size: "normal",
+  fontColor: "white",
+  backgroundColor: "black",
+};
